@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Iff6hfB7CJg.jpg" />
+    <None Remove="ОБОИ.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Monopolia\MonopoliaLogic.csproj" />
+    <ProjectReference Include="..\MonopolyRating\MonopolyRating.csproj" />
+    <ProjectReference Include="..\TestMonopolya\TestMonopolya.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Iff6hfB7CJg.jpg" />
+    <Resource Include="ОБОИ.png" />
+  </ItemGroup>
+
+</Project>

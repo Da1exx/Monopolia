@@ -1,0 +1,93 @@
+﻿<Page x:Class="MONOPOLY.ActivePlayerPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MONOPOLY"
+      mc:Ignorable="d" d:DesignWidth="535"
+      Title="ActivePlayerPage" Height="550">
+
+    <Grid Margin="0,0,0,0">
+
+        <StackPanel HorizontalAlignment="Center" Orientation="Horizontal" VerticalAlignment="Top" Margin="0,294,0,0" Height="50">
+            <Button x:Name="BuyStreet" Content="Купить улицу" Width="100" Margin="0,0,10,0" Click="Button_Click" FontFamily="Arial Black"/>
+            <Button x:Name="BuyHouse" Content="Купить дом" Width="100" Margin="0,0,10,0" FontFamily="Arial Black" Click="BuyHouse_Click"/>
+            <Button x:Name="SellHouce" Content="Продать дом" Width="100" Margin="0,0,10,0" FontFamily="Arial Black" Click="SellHouce_Click"/>
+            <Button x:Name="Chance" Content="Обмен" Width="100" FontFamily="Segoe UI Black" Click="Chance_Click"/>
+
+        </StackPanel>
+        <ListView x:Name="TileList" SelectionMode="Single" SelectedItem="{Binding FS,Mode=OneWay}" HorizontalAlignment="Center" Height="180" Margin="0,15,0,0" VerticalAlignment="Top" Width="485" ItemsSource="{Binding Path=player.Realta,Mode=OneWay}" RenderTransformOrigin="1.385,0.314">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn DisplayMemberBinding="{Binding name}" Header="Имя"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding family}" Header="Тип"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding level}" Header="Домов"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding Profit}" Header="Цена пребывания"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <StackPanel HorizontalAlignment="Left" Margin="20,200,0,0" Orientation="Horizontal" VerticalAlignment="Top" Height="40">
+            <Label Content="Баланс" FontSize="22" FontFamily="Arial Black"/>
+            <TextBlock x:Name="Balance" Text="1500" TextWrapping="Wrap" Height="38" Width="130" FontSize="28" FontFamily="Arial Black" Margin="0,2,0,0"/>
+        </StackPanel>
+        <TextBlock x:Name="NamePlayer" HorizontalAlignment="Left" Margin="310,205,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontFamily="Arial Black" Height="40" Width="200" TextAlignment="Right"/>
+        <TextBlock x:Name="Act" HorizontalAlignment="Left" Margin="156,250,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="41" Width="194" FontSize="14" FontFamily="Arial Black" TextAlignment="Center"/>
+        <TabControl x:Name="Players" Margin="0,350,0,0">
+            <TabItem Header="Player1" IsSelected="True">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="4*"/>
+                        <ColumnDefinition Width="19*"/>
+                    </Grid.ColumnDefinitions>
+                    <ListView x:Name="TileListPl1" SelectionMode="Single" SelectedItem="{Binding FS,Mode=OneWay}" ItemsSource="{Binding Path=players[0].Realta,Mode=OneWay}" RenderTransformOrigin="1.385,0.314" Grid.ColumnSpan="2">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn DisplayMemberBinding="{Binding name}" Header="Имя"/>
+                                <GridViewColumn DisplayMemberBinding="{Binding family}" Header="Тип"/>
+                                <GridViewColumn DisplayMemberBinding="{Binding level}" Header="Домов"/>
+                                <GridViewColumn DisplayMemberBinding="{Binding Profit}" Header="Цена пребывания"/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Player2">
+                <ListView x:Name="TileListPl2" SelectionMode="Single" SelectedItem="{Binding FS,Mode=OneWay}" ItemsSource="{Binding players[1].Realta,Mode=OneWay}" RenderTransformOrigin="1.385,0.314" Height="192">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn DisplayMemberBinding="{Binding name}" Header="Имя"/>
+                            <GridViewColumn DisplayMemberBinding="{Binding family}" Header="Тип"/>
+                            <GridViewColumn DisplayMemberBinding="{Binding level}" Header="Домов"/>
+                            <GridViewColumn DisplayMemberBinding="{Binding profit}" Header="Цена пребывания"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </TabItem>
+            <TabItem Header="Player3">
+                <ListView x:Name="TileListPL3" SelectionMode="Single" SelectedItem="{Binding FS,Mode=OneWay}" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch" ItemsSource="{Binding players[2].Realta,Mode=OneWay}" RenderTransformOrigin="1.385,0.314">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn DisplayMemberBinding="{Binding name}" Header="Имя"/>
+                            <GridViewColumn DisplayMemberBinding="{Binding family}" Header="Тип"/>
+                            <GridViewColumn DisplayMemberBinding="{Binding level}" Header="Домов"/>
+                            <GridViewColumn DisplayMemberBinding="{Binding Profit}" Header="Цена пребывания"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </TabItem>
+            <TabItem Header="Player4">
+                <ListView x:Name="TileListPL4" SelectionMode="Single" SelectedItem="{Binding FS,Mode=OneWay}" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch" ItemsSource="{Binding players[3].Realta,Mode=OneWay}" RenderTransformOrigin="1.385,0.314">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn DisplayMemberBinding="{Binding name}" Header="Имя"/>
+                            <GridViewColumn DisplayMemberBinding="{Binding family}" Header="Тип"/>
+                            <GridViewColumn DisplayMemberBinding="{Binding level}" Header="Домов"/>
+                            <GridViewColumn DisplayMemberBinding="{Binding Profit}" Header="Цена пребывания"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Page>

@@ -1,0 +1,463 @@
+﻿<Page x:Class="MONOPOLY.Game"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MONOPOLY"
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="1200"
+      Title="Game">
+
+    <Grid Height="700">
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Height="700">
+            <Image Stretch="Fill" Source="/Iff6hfB7CJg.jpg" Width="665" VerticalAlignment="Top" HorizontalAlignment="Left" Height="665"/>
+            <TextBox Text="TextBox" TextWrapping="Wrap" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="10">
+                <TextBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="180"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <TextBox Text="TextBox" TextWrapping="Wrap" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="10">
+                <TextBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="359.537"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <TextBox Text="TextBox" TextWrapping="Wrap" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="10">
+                <TextBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="359.537"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <TextBox Text="TextBox" TextWrapping="Wrap" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="10">
+                <TextBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="359.537"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <TextBox Text="TextBox" TextWrapping="Wrap" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="10">
+                <TextBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="359.537"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <TextBox Text="TextBox" TextWrapping="Wrap" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="10" IsReadOnly="True">
+                <TextBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="180"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <TextBox Text="TextBox" TextWrapping="Wrap" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="10">
+                <TextBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="359.537"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <TextBox Text="TextBox" TextWrapping="Wrap" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="10">
+                <TextBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="359.537"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </TextBox.RenderTransform>
+            </TextBox>
+        </StackPanel>
+        <TextBox x:Name="RED1" HorizontalAlignment="Left" Margin="109,45,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="9" IsReadOnly="True" TextAlignment="Center">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="180"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="RED2" HorizontalAlignment="Left" Margin="209,44,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="10" IsReadOnly="True" TextAlignment="Center">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="180"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="Red3" HorizontalAlignment="Left" Margin="260,44,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="10" IsReadOnly="True" TextAlignment="Center">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="180"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="Chance2" HorizontalAlignment="Left" Margin="159,64,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="10" IsReadOnly="True">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="180"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="RGD3" HorizontalAlignment="Left" Margin="310,58,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="10" IsReadOnly="True" TextAlignment="Center">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="180"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="Yellow1" HorizontalAlignment="Left" Margin="360,47,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="10" IsReadOnly="True" TextAlignment="Center">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="180"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="GKX2" HorizontalAlignment="Left" Margin="461,59,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="10" IsReadOnly="True" TextAlignment="Center">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="180"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="Yellow2" HorizontalAlignment="Left" Margin="411,46,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="10" IsReadOnly="True" TextAlignment="Center">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="180"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="Yellow3" HorizontalAlignment="Left" Margin="511,46,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="9" IsReadOnly="True" TextAlignment="Center">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="180"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="Bly3" HorizontalAlignment="Left" Margin="109,582,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="9" IsReadOnly="True" TextAlignment="Center">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="359.537"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="Bly2" HorizontalAlignment="Left" Margin="159,581,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="10" IsReadOnly="True" TextAlignment="Center">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="359.537"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="Chance1" HorizontalAlignment="Left" Margin="209,565,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="10" IsReadOnly="True" TextAlignment="Center">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="359.537"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="BLY1" HorizontalAlignment="Left" Margin="259,578,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="10" IsReadOnly="True" TextAlignment="Center">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="359.537"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="Tax1" HorizontalAlignment="Left" Margin="371,573,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="10" IsReadOnly="True">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="359.537"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="RGD1" HorizontalAlignment="Left" Margin="309,562,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="9" IsReadOnly="True" TextAlignment="Center">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="359.537"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="Brown2" HorizontalAlignment="Left" Margin="411,576,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="10" IsReadOnly="True" TextAlignment="Center">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="359.537"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="Brown1" HorizontalAlignment="Left" Margin="511,579,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="10" IsReadOnly="True" TextAlignment="Center">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="359.537"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="Tresure1" HorizontalAlignment="Left" Margin="461,561,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="9" IsReadOnly="True" TextAlignment="Center">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="359.537"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="Green3" HorizontalAlignment="Left" Margin="576,261,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="9" IsReadOnly="True" TextAlignment="Center">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="270"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="Tresure3" HorizontalAlignment="Left" Margin="561,212,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="9" IsReadOnly="True" TextAlignment="Center">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="270"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="Green1" HorizontalAlignment="Left" Margin="576,113,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="9" IsReadOnly="True" TextAlignment="Center">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="270"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="Green2" HorizontalAlignment="Left" Margin="576,162,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="9" IsReadOnly="True" TextAlignment="Center">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="270"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="Chance3" HorizontalAlignment="Left" Margin="561,360,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="10" IsReadOnly="True" TextAlignment="Center">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="270"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="RGD4" HorizontalAlignment="Left" Margin="556,311,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="10" IsReadOnly="True" TextAlignment="Center">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="270"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="Black2" HorizontalAlignment="Left" Margin="576,512,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="8" IsReadOnly="True" TextAlignment="Center">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="270"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="Tax2" HorizontalAlignment="Left" Margin="566,456,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="10" IsReadOnly="True">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="270"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="Black1" HorizontalAlignment="Left" Margin="576,412,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="10" IsReadOnly="True" TextAlignment="Center">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="270"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="PINK1" HorizontalAlignment="Left" Margin="39,515,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="9" IsReadOnly="True" TextAlignment="Center">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="450"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="PINK3" HorizontalAlignment="Left" Margin="39,363,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="8" IsReadOnly="True" TextAlignment="Center">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="450"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="PINK2" HorizontalAlignment="Left" Margin="39,414,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="9" IsReadOnly="True" TextAlignment="Center">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="450"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="GKX1" HorizontalAlignment="Left" Margin="54,464,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="10" IsReadOnly="True" TextAlignment="Center">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="450"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="ORANGE1" HorizontalAlignment="Left" Margin="44,264,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="10" IsReadOnly="True" TextAlignment="Center">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="450"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="RGD2" HorizontalAlignment="Left" Margin="64,312,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="10" IsReadOnly="True" TextAlignment="Center">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="450"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="Orange3" HorizontalAlignment="Left" Margin="44,113,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="9" IsReadOnly="True" TextAlignment="Center">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="450"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="Orange2" HorizontalAlignment="Left" Margin="44,163,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="9" IsReadOnly="True" TextAlignment="Center">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="450"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="Tresure2" HorizontalAlignment="Left" Margin="54,213,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Height="40" BorderBrush="{x:Null}" FontFamily="Arial" FontSize="9" IsReadOnly="True">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="450"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        
+        <Frame x:Name="Tern" Content="Frame" Margin="665,0,0,150"/>
+        <StackPanel HorizontalAlignment="Left" Orientation="Horizontal" VerticalAlignment="Top" Height="65" Width="190" Margin="235,300,0,0">
+            <TextBlock x:Name="Roll1" Text="1" TextWrapping="Wrap" FontFamily="Impact" FontSize="48" TextAlignment="Center" Margin="40,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <TextBlock x:Name="Roll2" Text="1" TextWrapping="Wrap" FontFamily="Impact" FontSize="48" TextAlignment="Right" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="75,0,0,0"/>
+        </StackPanel>
+        <Button x:Name="Roll" Content="Бросок кубика" HorizontalAlignment="Left" Margin="855,560,0,0" VerticalAlignment="Top" Height="55" Width="165" FontFamily="Arial Black" FontSize="18" Click="Roll_Click"/>
+    </Grid>
+</Page>

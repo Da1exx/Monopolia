@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonopoliaLogic", "Monopolia\MonopoliaLogic.csproj", "{D8F2D2B9-C754-400D-8217-A29F64FAEB48}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MONOPOLY", "MONOPOLY\MONOPOLY.csproj", "{3FB98144-8F74-4FCB-92E2-CA2CBE928C19}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestMonopolya", "TestMonopolya\TestMonopolya.csproj", "{B7B50AD6-DA64-41D6-9C81-0CAF464B0E0A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonopolyRating", "MonopolyRating\MonopolyRating.csproj", "{03CD06BF-136E-495B-BC95-80044EF5DE60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8F2D2B9-C754-400D-8217-A29F64FAEB48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8F2D2B9-C754-400D-8217-A29F64FAEB48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8F2D2B9-C754-400D-8217-A29F64FAEB48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8F2D2B9-C754-400D-8217-A29F64FAEB48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FB98144-8F74-4FCB-92E2-CA2CBE928C19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FB98144-8F74-4FCB-92E2-CA2CBE928C19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FB98144-8F74-4FCB-92E2-CA2CBE928C19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FB98144-8F74-4FCB-92E2-CA2CBE928C19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7B50AD6-DA64-41D6-9C81-0CAF464B0E0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7B50AD6-DA64-41D6-9C81-0CAF464B0E0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7B50AD6-DA64-41D6-9C81-0CAF464B0E0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7B50AD6-DA64-41D6-9C81-0CAF464B0E0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03CD06BF-136E-495B-BC95-80044EF5DE60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03CD06BF-136E-495B-BC95-80044EF5DE60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03CD06BF-136E-495B-BC95-80044EF5DE60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03CD06BF-136E-495B-BC95-80044EF5DE60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2716DCD9-8D12-4E1C-A4F7-7634D9BC8B67}
+	EndGlobalSection
+EndGlobal

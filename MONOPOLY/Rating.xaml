@@ -1,0 +1,39 @@
+﻿<Page x:Class="MONOPOLY.Rating"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MONOPOLY"
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="1200
+      "
+      Title="Rating">
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Left" Orientation="Vertical" VerticalAlignment="Top" Margin="198,180,0,0">
+            <TextBlock x:Name="WinPlayerLabel" Text="Победил игрок" TextWrapping="Wrap" FontSize="24"/>
+            <TextBlock x:Name="WinPlayer" Text="Player1" TextWrapping="Wrap" FontSize="20" FontFamily="Arial Black" TextAlignment="Center"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Orientation="Vertical" VerticalAlignment="Top" Margin="100,260,0,0">
+            <TextBlock x:Name="MoneyLabel" Text="Осталось денег" TextWrapping="Wrap" FontSize="24" FontFamily="Arial"/>
+            <TextBlock x:Name="Money" Text="666" TextWrapping="Wrap" FontFamily="Arial Black" FontSize="16" TextAlignment="Center"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Orientation="Vertical" VerticalAlignment="Top" Margin="320,260,0,0">
+            <TextBlock x:Name="TernLabel" Text="Было ходов" TextWrapping="Wrap" FontSize="24" FontFamily="Arial"/>
+            <TextBlock x:Name="Tern" Text="777" TextWrapping="Wrap" FontSize="18" FontFamily="Segoe UI Black" TextAlignment="Center"/>
+        </StackPanel>
+        <ListView x:Name="TileList" SelectionMode="Single" SelectedItem="{Binding RatingList, Mode=OneWay}"
+          HorizontalAlignment="Left" Height="600" Margin="685,45,0,0" VerticalAlignment="Top" Width="400"
+          ItemsSource="{Binding RatingList, Mode=OneWay}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn DisplayMemberBinding="{Binding PlayerName}" Header="Имя"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding PlayerMoney}" Header="Остаток денег"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding Tern}" Header="Ходов до победы"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button x:Name="SeeRating" HorizontalAlignment="Left" Margin="160,425,0,0" VerticalAlignment="Top" Height="70" Width="275" FontSize="22" FontFamily="Arial Black" Click="Button_Click"/>
+        <ProgressBar HorizontalAlignment="Left" Height="10" Margin="250,545,0,0" VerticalAlignment="Top" Width="100" IsIndeterminate="True"/>
+    </Grid>
+</Page>
